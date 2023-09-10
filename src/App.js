@@ -1,24 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Header from './Components/Header';
+import { Switch, Route } from 'react-router-dom';
+import Instagram from './Components/Instagram';
+import Facebook from './Components/Facebook';
+import Twitter from './Components/Twitter';
+import Github from './Components/Github';
+import Interview from './Components/Interview';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+      <Header />  
+      <Switch>
+        <Route path='/Instagram' component={Instagram}/>
+        <Route path='/Facebook' component={Facebook}/>
+        <Route path='/Twitter' component={Twitter}/>
+        <Route path='/Github' component={Github}/>
+        <Route path='/interview' component={Interview}/>
+      </Switch>
+    </div>      
   );
 }
 

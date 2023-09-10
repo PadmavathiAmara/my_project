@@ -1,0 +1,21 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#left-nav{
+    width: 18rem;
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+}
+h1{
+    margin-left: 2rem;
+}
+
+

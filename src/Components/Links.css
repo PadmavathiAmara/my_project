@@ -1,0 +1,88 @@
+aside{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+}
+#instagram{
+    width: 4rem;
+    height: 4rem;
+}
+#fb{
+    width: 3rem;
+    height: 3rem;
+}
+#twitter{
+    width: 3rem;
+    height: 3rem;
+}
+#git{
+    width: 3rem;
+    /* height: 3rem; */
+}
+.links{
+    text-decoration: none;
+}
+.links:hover{
+    text-decoration: underline;
+}
+/*#insta{
+    background-image: linear-gradient(
+  45deg,
+  hsl(236deg 92% 47%) 0%,
+  hsl(261deg 85% 47%) 8%,
+  hsl(273deg 88% 45%) 17%,
+  hsl(281deg 86% 44%) 25%,
+  hsl(299deg 100% 39%) 33%,
+  hsl(312deg 100% 45%) 42%,
+  hsl(320deg 100% 50%) 50%,
+  hsl(338deg 100% 57%) 58%,
+  hsl(8deg 100% 63%) 67%,
+  hsl(32deg 100% 50%) 75%,
+  hsl(34deg 100% 50%) 83%,
+  hsl(37deg 100% 50%) 92%,
+  hsl(39deg 100% 50%) 100%
+);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}; */
+
+h1{
+    animation: animatedName 1s ease-out;
+}
+@keyframes animatedName {
+    from{
+        margin-left: 0%;
+    }
+    to{
+        margin-left: 2rem;
+    }
+}
+
+.socialMediaDivs{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialMediaDivs h2{
+    font-size: 4rem;
+}
+
+#instaLogo{
+    width: 5rem;
+    height: 5rem;
+}
+#fbLogo{
+    width: 4rem;
+    height: 4rem;
+}
+#twitterLogo{
+    width: 4rem;
+    height: 4rem;
+}
+#gitLogo{
+    width: 4rem;
+    height: 4rem;
+}
